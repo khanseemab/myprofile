@@ -1,0 +1,78 @@
+.bgimg{
+    background-image: url(wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height:  950px;
+    
+}
+ .headerset{ 
+    padding: 200px;
+    box-sizing: border-box;
+     margin-left: 15px;
+    margin-top: 180px;
+} 
+.headerset h1{ 
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: cursive;
+    /* margin-left: 35px; */
+ }
+ .headerset h6{ 
+    font-size: 24px; 
+    padding: 20px; 
+    /* margin-left: 135px;  */
+   
+    
+}
+.btn{
+    color: khaki;
+    /* margin-left: 171px; */
+}
+.headerset h1:hover{
+    color: rgb(159, 212, 119);
+    font-size: 53px;
+    transition: 0.2s ease-in-out;
+}
+.headerset h6:hover{
+    color: rgb(177, 238, 116);
+    font-size: 30px; 
+    transition: 0.2s ease;
+}
+@media only screen and (max-width:800px){
+    .headerset h1{ 
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: cursive;
+    }
+}
+.posts{
+    color: rgb(254, 255, 250);
+    margin-top: 300px;
+}
+h2{
+    font-size: 25px;
+}
+.navbar-nav li a{
+    transition: 0.4s ease;
+    margin: 10px;
+}
+.navbar-nav li a:hover{
+    background-color: rgb(0, 0, 0);
+}
+section{
+    padding: 20px;
+    margin: 10px;
+}
+.card{
+    padding: 15px;
+    background-color: rgb(107, 106, 106);
+}
+.card-body{
+    color: white;
+    background-color: black;
+}
+.card:hover{
+    opacity: 0.7;
+   
+}
