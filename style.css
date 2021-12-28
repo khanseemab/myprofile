@@ -10,7 +10,7 @@
     padding: 200px;
     box-sizing: border-box;
      margin-left: 15px;
-    margin-top: 180px;
+    margin-top: 100px;
 } 
 .headerset h1{ 
     font-size: 50px;
@@ -19,39 +19,38 @@
     /* margin-left: 35px; */
  }
  .headerset h6{ 
-    font-size: 24px; 
+    font-size: 20px; 
     padding: 20px; 
     /* margin-left: 135px;  */
    
     
 }
 .btn{
-    color: khaki;
+    color: rgb(255, 30, 0);
+    font-size: 15px;
+    background-color: rgb(211, 212, 206);
+    border-radius: 20%;
     /* margin-left: 171px; */
 }
 .headerset h1:hover{
-    color: rgb(159, 212, 119);
+    color: rgb(104, 165, 189);
     font-size: 53px;
     transition: 0.2s ease-in-out;
 }
 .headerset h6:hover{
-    color: rgb(177, 238, 116);
-    font-size: 30px; 
+    color: rgb(105, 105, 105);
+    /* font-size: 23px;  */
     transition: 0.2s ease;
 }
-@media only screen and (max-width:800px){
-    .headerset h1{ 
-        font-size: 30px;
-        font-weight: bolder;
-        font-family: cursive;
-    }
-}
+
 .posts{
     color: rgb(254, 255, 250);
     margin-top: 300px;
 }
 h2{
     font-size: 25px;
+    padding-bottom: 7px;
+    color: rgb(122, 122, 122);
 }
 .navbar-nav li a{
     transition: 0.4s ease;
@@ -75,4 +74,42 @@ section{
 .card:hover{
     opacity: 0.7;
    
+}
+.myname{
+    color: red;
+
+}
+
+.myname:hover{
+    font-size: 23px;
+    
+}
+
+@media only screen and (max-width:800px){
+    .headerset h1{ 
+        font-size: 23px;
+        font-weight: bold;
+        font-family: cursive;
+    }
+    .headerset h6{
+        color: rgb(231, 60, 60);
+        font-size: 13px; 
+    }
+    .headerset{
+        margin-top: 10px;
+    }
+    .headerset h1:hover{
+        color: rgb(159, 212, 119);
+        font-size: 25px;
+        transition: 0.2s ease-in-out;
+    }
+    .myname:hover{
+        font-size: 15px; 
+        
+    }
+    .myname{
+        background-color: rgb(254, 255, 250);   
+        border-radius: 50%; 
+    
+    }
 }
