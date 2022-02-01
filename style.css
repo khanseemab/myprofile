@@ -78,6 +78,7 @@ section{
 }
 .myname{
     color: red;
+
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     
@@ -94,6 +95,13 @@ a{
 a:hover{
     color: rgb(0, 0, 0);
 }
+
+
+.myname:hover{
+    font-size: 23px;
+    
+}
+
 
 @media only screen and (max-width:800px){
     .headerset h1{ 
